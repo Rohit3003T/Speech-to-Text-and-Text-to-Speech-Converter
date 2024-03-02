@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech to Text and Text to Speech Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Professional Speech to Text and Text to Speech Converter</h1>
+
+        <div class="section">
+            <h2>Speech to Text</h2>
+            <button id="startRecording" class="button primary">Start Recording</button>
+            <button id="stopRecording" class="button danger" disabled>Stop Recording</button>
+            <div id="transcribedText" class="text-output" contenteditable="true" placeholder="Transcribed text will appear here..."></div>
+        </div>
+
+        <div class="section">
+            <h2>Text to Speech</h2>
+            <textarea id="textInput" class="text-input" placeholder="Enter text to convert..."></textarea>
+            <button id="speakButton" class="button primary">Speak</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
